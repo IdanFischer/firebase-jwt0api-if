@@ -8,6 +8,8 @@ app.use(cors())
 
 app.get('/secrets', getSecrets)
 
-app.listen((3000), () => {
-  console.log('listening on http://localhost:3000...')
+app.get('/secrets', getSecrets)
+
+app.listen((3030), () => {
+  console.log('listening on http://localhost:3030...')
 })
